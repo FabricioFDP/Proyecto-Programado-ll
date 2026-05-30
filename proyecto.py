@@ -1,5 +1,4 @@
 # Usando pila (stack), matrices y funciones auxiliares
-
 # Función auxiliar: verifica si una posición es valida
 def es_posicion_valida(fila, columna, filas_totales, columnas_totales, laberinto, visitados):
     # Verificar que está dentro de los límites
@@ -97,7 +96,6 @@ def resolver_laberinto(laberinto, filas_totales, columnas_totales, posicion_inic
     return False
 
 
-
 # ENTRADA: Leer la primera línea con filas y columnas
 linea_primera = input()
 
@@ -130,7 +128,6 @@ for numero_fila in range(filas_totales):
     
     # Agregar la fila a la matriz
     laberinto.append(fila_caracteres)
-
 
 
 # Resolver el laberinto
